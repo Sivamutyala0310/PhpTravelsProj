@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PhpTravelsSuite">
+  <test thread-count="5" name="PhpTest">
+    <classes>
+      <class name="com.atmecs.phptravels.tests.PhpTravels_signUp"/>
+      <class name="com.atmecs.phptravels.utils.TestDataProvider"/>
+    </classes>
+  </test> <!-- PhpTest -->
+</suite> <!-- PhpTravelsSuite -->
